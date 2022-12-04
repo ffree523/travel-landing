@@ -131,11 +131,11 @@ a {
 }
 .categories {
   padding: 35px 10%;
-  .body__categories-box {
+  .main__categories-box {
     display: flex;
     justify-content: space-between;
     padding-bottom: 60px;
-    .body__categories-h1 {
+    .main__categories-h1 {
       font-family: 'Inter';
       font-weight: 600;
       font-size: 56px;
@@ -143,8 +143,7 @@ a {
       color: #2D3134;
       margin: 0px 0px 24px 0px;
     }
-
-    .body__categories-p {
+    .main__categories-p {
       width: 310px;
       font-family: 'Inter';
       font-weight: 400;
@@ -153,7 +152,7 @@ a {
       color: #5B5F62;
       margin: 0px;
     }
-    .body__categories-svg {
+    .main__categories-svg {
       display: grid;
       grid-template-columns: 50% 50%;
       cursor: pointer;
@@ -174,16 +173,16 @@ a {
       }
     }
   }
-  .body__categories-imggeo {
+  .main__categories-imggeo {
     display: flex;
     justify-content: space-between;
     cursor: pointer;
-    .body__imggeo_imgp {
+    .main__imggeo_imgp {
       display: flex;
       align-items: center;
       justify-content: center;
     }
-    .body__imggeo_imgp p {
+    .main__imggeo_imgp p {
       font-family: 'Inter';
       font-weight: 600;
       font-size: 20px;
@@ -194,13 +193,13 @@ a {
       transition: 0.3s;
       opacity: 0;
     }
-    .body__imggeo_imgp:hover p {
+    .main__imggeo_imgp:hover p {
       opacity: 1;
     }
-    .body__imggeo_imgp:hover img {
+    .main__imggeo_imgp:hover img {
       -webkit-filter: grayscale(33%);
     }
-    .body__imggeo_p {
+    .main__imggeo_p {
       font-family: 'Inter';
       font-weight: 500;
       font-size: 26px;
@@ -208,5 +207,42 @@ a {
       text-align: center;
       color: #2D3134;
     }
+  }
+}
+.ourstories {
+  padding: 35px 10%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items: start;
+  .main__outstories-h5 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #F66F4D;
+    margin: 0px;
+  }
+  .main__outstories-h1 {
+    width: 420px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+    color: #2D3134;
+    margin: 20px 0px;
+  }
+  .main__outstories-p {
+    width: 370px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5B5F62;
+    margin: 0px 0px 40px;
+  }
+  #main__outstories-card {
+    padding: 0px 20px;
   }
 }
