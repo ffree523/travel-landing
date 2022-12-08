@@ -247,4 +247,15 @@ a {
   padding: 0px 20px;
 }
 
+.categories #main__destination-box {
+  align-items: center;
+  padding-bottom: 0px;
+}
+.categories #main__destination-box #destination-h1 {
+  width: 320px;
+}
+.categories #main__destination-box #box-right {
+  padding-right: 16px;
+}
+
 /*# sourceMappingURL=index.css.map */
