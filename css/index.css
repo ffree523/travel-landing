@@ -2,6 +2,7 @@ body {
   background: #FAF8ED;
   margin: 0px;
   box-sizing: border-box;
+  font-family: "Inter", "sans-serif";
 }
 
 a {
@@ -23,7 +24,7 @@ a {
 }
 .navigation nav a {
   padding-right: 36px;
-  font-family: "Poppins";
+  font-family: "Poppins", "sans-serif";
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -59,7 +60,7 @@ a {
 }
 .infobox .header__infobox .header__infobox-h1 {
   width: 577px;
-  font-family: "Sen";
+  font-family: "Sen", "sans-serif";
   font-weight: 700;
   font-size: 84px;
   line-height: 86px;
@@ -67,7 +68,6 @@ a {
 }
 .infobox .header__infobox .header__infobox-p {
   width: 440px;
-  font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -88,7 +88,6 @@ a {
   padding-right: 34px;
 }
 .infobox .header__infobox .header__infobox-search .infobox__search-items label {
-  font-family: "Inter";
   font-weight: 500;
   font-size: 18px;
   line-height: 17px;
@@ -100,7 +99,6 @@ a {
   outline: none;
 }
 .infobox .header__infobox .header__infobox-search .infobox__search-items #where {
-  font-family: "Inter";
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
@@ -108,7 +106,6 @@ a {
   padding: 8px 26px 19px 26px;
 }
 .infobox .header__infobox .header__infobox-search .infobox__search-items #date {
-  font-family: "Inter";
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
@@ -137,7 +134,6 @@ a {
   padding-bottom: 60px;
 }
 .categories .main__categories-box .main__categories-h1 {
-  font-family: "Inter";
   font-weight: 600;
   font-size: 56px;
   line-height: 56px;
@@ -146,7 +142,6 @@ a {
 }
 .categories .main__categories-box .main__categories-p {
   width: 310px;
-  font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -184,7 +179,6 @@ a {
   justify-content: center;
 }
 .categories .main__categories-imggeo .main__imggeo_imgp p {
-  font-family: "Inter";
   font-weight: 600;
   font-size: 20px;
   line-height: 22px;
@@ -201,7 +195,6 @@ a {
   -webkit-filter: grayscale(33%);
 }
 .categories .main__categories-imggeo .main__imggeo_p {
-  font-family: "Inter";
   font-weight: 500;
   font-size: 26px;
   line-height: 26px;
@@ -217,7 +210,6 @@ a {
   justify-items: start;
 }
 .ourstories .main__outstories-h5 {
-  font-family: "Inter";
   font-weight: 600;
   font-size: 20px;
   line-height: 20px;
@@ -227,7 +219,6 @@ a {
 }
 .ourstories .main__outstories-h1 {
   width: 420px;
-  font-family: "Inter";
   font-weight: 600;
   font-size: 56px;
   line-height: 66px;
@@ -236,7 +227,6 @@ a {
 }
 .ourstories .main__outstories-p {
   width: 370px;
-  font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -270,7 +260,6 @@ a {
   padding: 12px 12px 16px;
 }
 .cards .main__cards-card1 .main__cards-h2 {
-  font-family: "Inter";
   font-weight: 600;
   font-size: 24px;
   line-height: 24px;
@@ -279,7 +268,6 @@ a {
   padding: 24px 0px 14px;
 }
 .cards .main__cards-card1 .main__cards-p {
-  font-family: "Inter";
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
@@ -297,7 +285,6 @@ a {
   align-items: center;
 }
 .cards .main__cards-card1 .main__cards-bottomblock .main__cards-price .main__cards-priceh2 {
-  font-family: "Inter";
   font-weight: 600;
   font-size: 24px;
   line-height: 20px;
@@ -305,7 +292,6 @@ a {
   padding-right: 7px;
 }
 .cards .main__cards-card1 .main__cards-bottomblock .main__cards-price .main__cards-pricep {
-  font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -334,7 +320,6 @@ a {
   align-items: center;
 }
 .topdestinations .main__topdestinations-block .main__topdestinatios-h1 {
-  font-family: "Inter";
   font-weight: 600;
   font-size: 56px;
   line-height: 66px;
@@ -342,7 +327,6 @@ a {
   margin-bottom: 0px;
 }
 .topdestinations .main__topdestinations-block .main__topdestinatios-p {
-  font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -382,6 +366,81 @@ a {
 }
 .topdestinations .main__topdestinations-img .main__topdestinations-img5 {
   padding-right: 26px;
+}
+
+.customer {
+  padding: 35px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main__customer-palka {
+  width: 67px;
+  height: 8px;
+  background: linear-gradient(159.99deg, #FFD482 13.35%, #FFBE82 118.92%);
+  box-shadow: 0px 2px 6px rgba(229, 137, 24, 0.15);
+  border-radius: 4px;
+}
+
+.main__customer-h1 {
+  width: 417px;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 66px;
+  text-transform: capitalize;
+  color: #2D3134;
+  margin: 0px;
+  padding: 12px 0px 26px;
+}
+
+.main__customer-whiteblock {
+  background-color: #FFFFFF;
+  border-radius: 14px;
+}
+.main__customer-whiteblock .main__customer-container {
+  padding: 32px 32px 30px 32px;
+}
+.main__customer-whiteblock .main__customer-container .main__customer-p {
+  width: 389px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #5B5F62;
+  margin: 0px;
+}
+.main__customer-whiteblock .main__customer-container .main__customer-info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 27px;
+}
+.main__customer-whiteblock .main__customer-container .main__customer-info .main__customer-h5 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #2D3134;
+  margin: 0px;
+  padding: 17px 0px 8px;
+}
+.main__customer-whiteblock .main__customer-container .main__customer-info .main__customer-h6 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #5B5F62;
+  margin: 0px;
+}
+.main__customer-whiteblock .main__customer-container .main__customer-info .main__customer-svgbox {
+  display: flex;
+}
+.main__customer-whiteblock .main__customer-container .main__customer-info .main__customer-svgbox .main__customer-svg:hover svg path {
+  stroke: #FAF8ED;
+}
+.main__customer-whiteblock .main__customer-container .main__customer-info .main__customer-svgbox .main__customer-svg:hover svg {
+  fill: #2D3134;
+}
+.main__customer-whiteblock .main__customer-container .main__customer-info .main__customer-svgbox #main__customer-svg {
+  padding-left: 16px;
 }
 
 /*# sourceMappingURL=index.css.map */
