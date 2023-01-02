@@ -432,6 +432,7 @@ a {
 }
 .main__customer-whiteblock .main__customer-container .main__customer-info .main__customer-svgbox {
   display: flex;
+  cursor: pointer;
 }
 .main__customer-whiteblock .main__customer-container .main__customer-info .main__customer-svgbox .main__customer-svg:hover svg path {
   stroke: #FAF8ED;
